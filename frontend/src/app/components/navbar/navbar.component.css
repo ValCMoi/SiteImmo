@@ -1,0 +1,31 @@
+nav{
+    height: 5rem;
+    display: flex;
+}
+
+nav>*{
+    margin: auto;
+}
+
+.logo{
+    height: 4rem;
+    border-radius: 100%;
+}
+
+.listLink{
+    display: flex;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.listLink>li{
+    margin: 0 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    transition-duration: 0.3s;
+}
+
+.listLink>li:hover{
+    color: var(--primary);
+    transition-duration: 0.3s;
+}

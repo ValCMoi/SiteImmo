@@ -1,0 +1,11 @@
+.gridProperty{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.gridProperty>*{
+    padding: 1rem;
+}

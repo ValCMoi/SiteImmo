@@ -1,0 +1,51 @@
+.heroBanner{
+    height: 360px;
+    width: 100%;
+    background: pink;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.heroBanner>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroBannerContent{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.slogan{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-shadow: 2px 2px #0000007d;
+}
+
+.bottomContentHeroBanner{
+    display: flex;
+
+    height: 3rem;
+    width: 90%;
+    max-width: 1050px;
+
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    
+    background: white;
+    box-shadow: 1px 1px 4px 2px #68606060;
+    transition-duration: 0.3s;
+}
+
+.bottomContentHeroBanner:hover{
+    box-shadow: 3px 3px 3px 3px #68606060;
+    transition-duration: 0.3s;
+}

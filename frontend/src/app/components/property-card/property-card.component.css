@@ -1,0 +1,23 @@
+.property-card{
+    height: 400px;
+    width: 280px;
+
+    display: grid;
+    grid-template-rows: 7fr 3fr 1fr;
+    cursor: pointer;
+    background: linear-gradient(white, var(--back-card));
+    transition-duration: 0.3s;
+}
+
+.property-card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.property-card>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
