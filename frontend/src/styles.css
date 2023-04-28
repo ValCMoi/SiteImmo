@@ -9,6 +9,7 @@
 :root{
     --primary: #279748;
     --back-card: #eee6e6;
+    --grey: #bfc0c0;
 }
 .flex{
     display: flex;

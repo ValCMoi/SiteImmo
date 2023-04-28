@@ -1,7 +1,7 @@
 .heroBanner{
     height: 360px;
     width: 100%;
-    background: pink;
+    background: var(--back-card);
     position: relative;
     margin-bottom: 4rem;
 }
