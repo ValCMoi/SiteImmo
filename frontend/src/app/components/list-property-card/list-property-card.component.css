@@ -2,8 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 80vw;
+    min-height: calc(360px + 6rem );
     margin: auto;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .gridProperty>*{
